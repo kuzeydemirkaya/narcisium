@@ -1,0 +1,197 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #0F0F0F;
+        color: #8a8a8a;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: #333333;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+    color: #333333;
+    background-color: white;
+}
+
+.dark-mode {
+    background-color: #0F0F0F; 
+    color: #8a8a8a; 
+}
+
+.header {
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    font-family: Baskerville;
+}
+
+.spotify-link {
+    margin-left: auto;
+}
+
+.spotify-logo {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.spotify-logo:hover {
+    transform: scale(1.2);
+}
+
+.logo img {
+    margin-right: 20px;
+    width: 64px;
+    height: 64px;
+}
+
+.content {
+
+}
+
+.iframe-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: default; 
+    pointer-events: inherit; 
+}
+
+.audio-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+
+}
+
+.album-scroll {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.album-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 40px;
+}
+
+.album-container a {
+    text-decoration: none;
+}
+
+.album-container img {
+    height: 150px;
+    border-radius: 0px;
+    transition: transform 0.2s;
+    border-radius: 8px;
+}
+
+.album-container img:hover {
+    transform: scale(1.05);
+}
+
+.album-genre {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.album-scroll::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+.album-scroll {
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+.album {
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.album-title {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: normal;
+    color: rgb(71, 71, 71);
+}
+
+.dark-mode .album-title {
+    color: #8a8a8a;
+}
+.dark-mode .album-genre {
+    color: rgb(97, 97, 97);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        transition: background-color 0.5s, color 0.5s;
+        color: #333333;
+        background-color: white;
+    }
+    .dark-mode {
+        background-color: #0F0F0F; 
+        color: #8a8a8a; 
+    }
+    .header {
+        flex-direction: row;
+        align-items: left;
+        margin-left: -5px;
+    }
+
+    .logo img {
+        margin: 0px;
+        margin-right: 10px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .title h1 {
+        font-size: small; 
+        margin: 0;
+        text-align: left;
+    }
+
+    .content {
+        max-width: 100%; 
+        box-sizing: border-box; 
+        margin-left: -20px;
+    }
+
+    .audio-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer {
+
+    }
+}
+
