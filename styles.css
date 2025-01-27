@@ -60,22 +60,21 @@ body {
 }
 
 .product {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-            max-width: 600px;
-        }
+     display: flex;
+     align-items: center;
+     margin-bottom: 20px;
+     max-width: 600px;
+}
 
-        .product-image {
-            width: 150px;
-            height: auto;
-            margin-right: 20px;
-        }
+.product-image {
+      width: 150px;
+      height: auto;
+      margin-right: 20px;
+}
 
-        .product-description {
-            flex-grow: 1;
-        }
-
+.product-description {
+       flex-grow: 1;
+}
 
 @media only screen and (max-width: 600px) {
     body {
