@@ -3,18 +3,12 @@
         background-color: #0F0F0F;
         color: #8a8a8a;
     }
-    .footer a:hover {
-        color: darkgray;
-    }
 }
 
 @media (prefers-color-scheme: light) {
     body {
         background-color: white;
         color: #333333;
-    }
-    .footer a:hover {
-        color: black;
     }
 }
 
@@ -111,6 +105,9 @@ body {
     transition: color 0.2s ease
    }
 
+ .footer a:hover {
+        color: darkgray;
+}
 
 @media only screen and (max-width: 600px) {
     body {
