@@ -96,16 +96,14 @@ body {
     font-family: Heiti TC; 
     font-weight: lighter;
     color: dimgray;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .footer a {
     text-align: center;
-    font-size: small; 
     font-family: Heiti TC; 
     font-weight: lighter;
     color: dimgray;
-    margin-bottom: 10px;
     text-decoration: none;
    }
 
