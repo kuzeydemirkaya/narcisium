@@ -120,6 +120,10 @@ body {
         text-align: left;
     }
 
+    .h3 {
+        font-size: medium; 
+    }
+
     .content {
         max-width: 100%; 
         box-sizing: border-box; 
