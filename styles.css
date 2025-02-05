@@ -96,6 +96,7 @@ body {
         transition: background-color 0.5s, color 0.5s;
         color: #333333;
         background-color: white;
+        font-size: medium; 
     }
     .dark-mode {
         background-color: #0F0F0F; 
@@ -118,10 +119,6 @@ body {
         font-size: small; 
         margin: 0;
         text-align: left;
-    }
-
-    .h3 {
-        font-size: medium; 
     }
 
     .content {
