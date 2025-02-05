@@ -89,6 +89,30 @@ body {
        flex-grow: 1;
 }
 
+
+.footer {
+    text-align: center;
+    font-size: small; 
+    font-family: Heiti TC; 
+    font-weight: lighter;
+    color: dimgray;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-align: center;
+    font-size: small; 
+    font-family: Heiti TC; 
+    font-weight: lighter;
+    color: dimgray;
+    margin-bottom: 10px;
+    text-decoration: none;
+   }
+
+  .footer a:hover {
+   color: white;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         margin: 0;
