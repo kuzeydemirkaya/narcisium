@@ -3,12 +3,18 @@
         background-color: #0F0F0F;
         color: #8a8a8a;
     }
+    .footer a:hover {
+        color: darkgray;
+    }
 }
 
 @media (prefers-color-scheme: light) {
     body {
         background-color: white;
         color: #333333;
+    }
+    .footer a:hover {
+        color: black;
     }
 }
 
@@ -92,7 +98,7 @@ body {
 
 .footer {
     text-align: center;
-    font-size: small; 
+    font-size: x-small; 
     font-family: Heiti TC; 
     font-weight: lighter;
     color: dimgray;
@@ -100,16 +106,11 @@ body {
 }
 
 .footer a {
-    text-align: center;
-    font-family: Heiti TC; 
-    font-weight: lighter;
     color: dimgray;
     text-decoration: none;
+    transition: color 0.2s ease
    }
 
-  .footer a:hover {
-   color: white;
-}
 
 @media only screen and (max-width: 600px) {
     body {
