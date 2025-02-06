@@ -109,38 +109,6 @@ body {
         color: darkgray;
 }
 
-.landing-page .h2 {
-  color: black;
-  display: block;
-  font: bold 72px Helvetica;
-  letter-spacing: -1px;
-}
-
-#jquerybuddy span {
-   text-shadow: 0 0 4px rgba(0,100,0,1);
-   color: transparent;
-}
-
-.landing-page .section { 
-    padding: 10px 100px;  text-align: left;
-}
-
-.landing-page .hovertown {
-  color: black;
-  display: block;
-  font-size: 152px ;
-  font-weight: lighter;
-}
-
-.landing-page .hovertown span {
-  transition: all 0.9s ease;
-}
-.landing-page .hovertown span:hover {
-  text-shadow: 0 0 72px black; 
-  color: transparent;      
-  transition: all 0.2s ease; 
-}
-
 
 
 @media only screen and (max-width: 600px) {
