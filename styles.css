@@ -109,6 +109,40 @@ body {
         color: darkgray;
 }
 
+.products-page .h2 {
+  color: black;
+  display: block;
+  font: bold 72px Helvetica;
+  letter-spacing: -1px;
+}
+
+#jquerybuddy span {
+   text-shadow: 0 0 4px rgba(0,100,0,1);
+   color: transparent;
+}
+
+.porducts-page .section { 
+    padding: 10px 100px;  text-align: left;
+}
+
+.hovertown {
+  color: black;
+  display: block;
+  font-size: 152px ;
+  font-weight: lighter;
+}
+
+.porducts-page .hovertown span {
+  transition: all 0.9s ease;
+}
+.porducts-page .hovertown span:hover {
+  text-shadow: 0 0 72px black; 
+  color: transparent;      
+  transition: all 0.2s ease; 
+}
+
+
+
 @media only screen and (max-width: 600px) {
     body {
         margin: 0;
