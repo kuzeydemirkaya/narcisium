@@ -109,7 +109,7 @@ body {
         color: darkgray;
 }
 
-.products-page .h2 {
+.landing-page .h2 {
   color: black;
   display: block;
   font: bold 72px Helvetica;
@@ -121,21 +121,21 @@ body {
    color: transparent;
 }
 
-.porducts-page .section { 
+.landing-page .section { 
     padding: 10px 100px;  text-align: left;
 }
 
-.hovertown {
+.landing-page .hovertown {
   color: black;
   display: block;
   font-size: 152px ;
   font-weight: lighter;
 }
 
-.porducts-page .hovertown span {
+.landing-page .hovertown span {
   transition: all 0.9s ease;
 }
-.porducts-page .hovertown span:hover {
+.landing-page .hovertown span:hover {
   text-shadow: 0 0 72px black; 
   color: transparent;      
   transition: all 0.2s ease; 
