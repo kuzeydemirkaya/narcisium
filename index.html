@@ -6,8 +6,33 @@
     <title>narcisium</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/kyo-tux/phuzion/128/Disk-CD-icon.png">
+    <style>
+.content{
+    padding-left: 60px;
+}
+.span {
+        display: inline-block;
+        position: relative;
+       font-size: 172px;
+}
+span::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 3em;
+    content: '';
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}​
+    </style>
 </head> 
-<body class="landing-page">
+<body>
     <div class="header">
         <div class="logo" onclick="toggleDarkMode()">
             <div class="iframe-container">
@@ -27,9 +52,9 @@
   <h2 class="fringe" id="jquerybuddy">Welcome to</h2>
 </section>
 
-<section>
-  <h2 class="hovertown">Narcisium</h2>
-</section>
+<div>
+    <span>Narcisium</span>
+</div>
                 
         <h3>Check out our innovative audio technology products: 
             <a href="/products">here</a>.
