@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #000000;
-        color: #8a8a8a;
+        color: #ffffff;
     }
 }
 
@@ -23,7 +23,7 @@ body {
 
 .dark-mode {
     background-color: #000000; 
-    color: #8a8a8a; 
+    color: #ffffff; 
 }
 
 .header {
@@ -121,8 +121,8 @@ body {
         font-size: medium; 
     }
     .dark-mode {
-        background-color: #0F0F0F; 
-        color: #8a8a8a; 
+        background-color: #000000; 
+        color: #ffffff; 
     }
     .header {
         flex-direction: row;
