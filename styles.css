@@ -125,6 +125,10 @@ body {
         background-color: white;
         font-size: medium; 
     }
+    .container {
+        padding-top: 100px;
+        padding-right: 20px;
+    }
     .container h2 {
         margin-top: 0 !important;
         padding-bottom: 0 !important;
