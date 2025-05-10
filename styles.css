@@ -85,6 +85,11 @@ body {
       margin-top: 10px;
 }
 
+.narci-image {
+      width: -webkit-fill-available;
+}
+
+
 .product-description {
        flex-grow: 1;
 }
