@@ -125,6 +125,10 @@ body {
         background-color: white;
         font-size: medium; 
     }
+    .container h2 {
+        margin-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
     .dark-mode {
         background-color: #000000; 
         color: #ffffff; 
