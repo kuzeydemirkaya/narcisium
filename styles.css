@@ -129,6 +129,16 @@ body {
         margin-top: 0 !important;
         padding-bottom: 0 !important;
     }
+    .banner-container {
+        width: 100%;
+        text-align: center;  /* ensures inline/block children are centered */
+    }
+    .banner-container img {
+        display: inline-block; /* or block */
+        margin: 0 auto;        /* horizontal centering */
+        max-width: 90%;        /* optional: give it some breathing room */
+        height: auto;
+    }
     .dark-mode {
         background-color: #000000; 
         color: #ffffff; 
