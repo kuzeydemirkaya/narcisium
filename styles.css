@@ -159,6 +159,7 @@ body {
         max-width: 100%; 
         box-sizing: border-box; 
         margin-left: -20px;
+        padding-top: 100px;
     }
 
     .audio-wrapper {
